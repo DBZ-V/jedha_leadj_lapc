@@ -1,0 +1,40 @@
+{
+  "id-client": "JY-001",
+  "nom": "Jing",
+  "prénom": "Yuan",
+  "adresse": "Xianzhou Luofu, Cloud Knights HQ",
+  "tel": "1234567890",
+  "courriel": "jingyuan@cloudknights.com",
+  "commandes": [
+    {
+      "id-order": "A101",
+      "prix-total": 100,
+      "adresse de livraison": "Maison des Pins, Quartier Nord, Xianzhou Luofu",
+      "devise": "Galactic Credits",
+      "service de livraison": "Chronoposte",
+      "produits": [
+        {
+          "id-produit": "P2001",
+          "nom": "Encrier en jade",
+          "prix": 60,
+          "quantité/produit": 1,
+          "catégorie": {
+            "id-cat": "C003",
+            "catégorie": "Papeterie"
+          }
+        },
+        {
+          "id-produit": "P2002",
+          "nom": "Thé impérial",
+          "prix": 40,
+          "quantité/produit": 1,
+          "catégorie": {
+            "id-cat": "C004",
+            "catégorie": "Boissons"
+          }
+        }
+      ],
+      "date": "2024-09-25"
+    }
+  ]
+}
